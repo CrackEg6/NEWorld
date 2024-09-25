@@ -5,12 +5,64 @@
 body {
     margin: 0 auto;
     padding: 0;
+    /* background-color: ghostwhite; */
+    width: 100%;
 }
 
 #socialMidia-group {
-    background-color: navy;
+    background-color: darkblue;
     color: white;
     width: 100%;
     height: 3ch;
     text-align: center;
+}
+
+#rodape-group {
+    background-color: darkblue;
+    color: white;
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    padding-top: 5vh;
+}
+
+
+
+@media only screen and (max-width: 450px) {
+    .MobileD-menu {display: block;}
+    #mobileD {display: block;}
+
+    .TabletD-menu {display: none;}
+    #TabletD {display: none;}
+
+    .DesTopD-menu {display: none;}
+    #DesTopD {display: none;}
+
+    /* body{background-color: cadetblue;} */
+}
+
+@media only screen and (min-width: 450.01px) {
+    .MobileD-menu {display: none}
+    #mobileD {display: none;}
+
+    .TabletD-menu {display: block;}
+    #TabletD {display: block;}
+
+    .DesTopD-menu {display: none;}
+    #DesTopD {display: none;}
+
+    /* body{background-color: aquamarine;} */
+}
+
+@media only screen and (min-width: 1250.01px) {
+    .MobileD-menu {display: none}
+    #mobileD {display: none;}
+
+    .TabletD-menu {display: none;}
+    #TabletD {display: none;}
+
+    .DesTopD-menu {display: block;}
+    #DesTopD {display: block;}
+
+    /* body{background-color: aqua;} */
 }
