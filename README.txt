@@ -13,4 +13,5 @@ Criação exemplos web
 
  Pasta ASSETS adicionada
     -> IMG
+    -> CSS\Style.css
     -> ...
