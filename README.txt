@@ -23,7 +23,7 @@ criar a base do site:
       - frase
 
 
-Para cadas tela (Dispositivo) acessado, terá um layout próprio
+Para cada tela (Dispositivo) acessado, terá um layout próprio
 
    layout
      
